@@ -32,7 +32,7 @@ export const links = [
     id: 1,
     name: "Home",
     icon: <FaHome className="nav__icon" />,
-    path: "/",
+    path: "/portfolio",
   },
 
   {
@@ -46,7 +46,7 @@ export const links = [
     id: 3,
     name: "Portfolio",
     icon: <FaFolderOpen className="nav__icon" />,
-    path: "/portfolio",
+    path: "/myportfolio",
   },
 
   {
