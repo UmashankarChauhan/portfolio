@@ -1,0 +1,36 @@
+form {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  row-gap: 24px;
+}
+.form__group__inputs,
+.form__group__textarea {
+  width: 100%;
+}
+.form__group__inputs {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+.form__group__textarea {
+  height: 60%;
+}
+
+input,
+textarea {
+  display: inline-block;
+  width: 100%;
+  padding: 16px;
+  background-color: var(--border-color);
+  border-radius: 32px;
+  font-size: 16px;
+}
+
+textarea {
+  height: 170px;
+  resize: none;
+}
