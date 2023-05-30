@@ -12,7 +12,7 @@ import { FiExternalLink, FiFileText, FiUser } from "react-icons/fi";
 import Work1 from "./assets/project-1.png";
 import Work2 from "./assets/project-2.png";
 import Work3 from "./assets/project-3.png";
-import Work4 from "./assets/project-4.jpeg";
+import Work4 from "./assets/project-4.png";
 import Work5 from "./assets/project-5.jpg";
 import Work6 from "./assets/project-6.jpg";
 
@@ -345,22 +345,22 @@ export const portfolio = [
       {
         icon: <FiFileText />,
         title: "Project :",
-        desc: "Video",
+        desc: "Bank Application",
       },
       {
         icon: <FiUser />,
         title: "Client : ",
-        desc: "Dribble",
+        desc: "Nope",
       },
       {
         icon: <FaCode />,
         title: "Language : ",
-        desc: "Adobe Premium",
+        desc: "ReactJS",
       },
       {
         icon: <FiExternalLink />,
         title: "Preview : ",
-        desc: "www.dribble.com",
+        desc: `<a href="https://umashankarchauhan.github.io/bankist/">www.Bankist.com</a>`,
       },
     ],
   },
